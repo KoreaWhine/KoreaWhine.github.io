@@ -1,14 +1,14 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: KoreaWhine
+title: KoreaWhine | Dancehall
+description: KoreaWhine is a korean dance team.
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
+email: Koreawhine@gmail.com
 disqus_username: disqus_username
 show_hero: true
 
