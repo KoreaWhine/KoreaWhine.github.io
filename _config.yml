@@ -72,6 +72,14 @@ paginate_content:
     single:
       is_generated: true
 
+links:
+  - title: Home
+    url: /
+  - title: Dancehall Moves
+    url: /moves/
+  - title: Tutorials
+    url: /tutorials/
+
 # Plugins
 plugins:
   - jekyll-paginate
