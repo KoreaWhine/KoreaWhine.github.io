@@ -72,13 +72,11 @@ paginate_content:
     single:
       is_generated: true
 
-links:
-  - title: Home
-    url: /
+category:
   - title: Dancehall Moves
-    url: /moves/
+    url: /category/moves/
   - title: Tutorials
-    url: /tutorials/
+    url: /category/tutorial/
 
 # Plugins
 plugins:

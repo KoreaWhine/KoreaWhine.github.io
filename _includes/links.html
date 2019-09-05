@@ -10,7 +10,7 @@
     {% endif %}
   {% endfor %}
 
-  {% for link in site.links %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+  {% for category in site.category %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></li>
   {% endfor %}
 </ul>
