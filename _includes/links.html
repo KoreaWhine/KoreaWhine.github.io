@@ -1,6 +1,6 @@
 <ul>
   <li>
-    <a href="{{ site.url }}{{site.baseurl}}/">Home</a>
+    <a href="{{ site.url }}{{site.baseurl}}/">HOME</a>
   </li>
   {% for page in site.pages %}
     {% if page.menu %}
@@ -10,7 +10,19 @@
     {% endif %}
   {% endfor %}
 
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/performance">CHOREO/PERFORMANCE</a></li>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/moves">MOVE TUTORIALS</a></li>
+  <h2></h2>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/wahgwan">WAH GWAN KOREA</a></li>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/events">DANCEHALL EVENTS in Korea</a></li>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/workshops">WORKSHOPS</a></li>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/category/gallery">GALLERY</a></li>
+  <h2></h2>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/contact/">CONTACT</a></li>
+  
+<!--
   {% for category in site.category %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></li>
   {% endfor %}
+-->
 </ul>
