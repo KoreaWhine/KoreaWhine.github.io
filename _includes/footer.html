@@ -10,6 +10,11 @@
           <svg><use xlink:href="#icon-facebook"></use></svg>
         </a>
       {% endif %}
+      {% if site.youtube_username %}
+        <a href="https://www.youtube.com/{{ site.youtube_username }}" title="Youtube">
+          <img src="https://img.icons8.com/color/48/000000/youtube-play.png">
+        </a>
+      {% endif %}
       {% if site.twitter_username %}
         <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
           <svg><use xlink:href="#icon-twitter"></use></svg>
@@ -22,7 +27,7 @@
       {% endif %}
       {% if site.instagram_username %}
         <a href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
-          <svg><use xlink:href="#icon-instagram"></use></svg>
+          <img src="https://img.icons8.com/color/48/000000/instagram-new.png">
         </a>
       {% endif %}
       {% if site.linkedin_username %}
@@ -46,6 +51,9 @@
 {% endif %}
 {% if site.facebook_username %}
     {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}
+{% endif %}
+{% if site.youtube_username %}
+    {% assign social_urls = social_urls | append: '"https://www.youtube.com/' | append: site.youtube_username | append: '",' %}
 {% endif %}
 {% if site.twitter_username %}
     {% assign social_urls = social_urls | append: '"https://twitter.com/' | append: site.twitter_username | append: '",' %}
