@@ -17,6 +17,12 @@ layout: page
 
   <p>{{ page.bio }}</p>
 
+  <h2>Video</h2>
+  {% if page.youtube_link %}
+    
+    <iframe id="ytplayer" type="text/html" width="640" height="360" src="http://www.youtube.com/embed/{{ page.youtube_link }}" frameborder="0"/>
+  {% endif %}
+
   <h2>Posts</h2>
 
   <ul>
