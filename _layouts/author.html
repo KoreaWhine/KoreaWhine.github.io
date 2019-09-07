@@ -19,8 +19,8 @@ layout: page
 
   <h2>Video</h2>
   {% if page.youtube_link %}
-    
-    <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/{{ page.youtube_link }}" frameborder="0"/>
+    <div><object width="640" height="360"><param name="movie" value="https://www.youtube.com/v/{{ page.youtube_link }}?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/{{ page.youtube_link }}?version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
+
   {% endif %}
 
   <h2>Posts</h2>
