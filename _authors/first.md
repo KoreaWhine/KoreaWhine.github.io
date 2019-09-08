@@ -1,7 +1,7 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: Test
+name: First Test
 display_name: First dancer
 position: First position
 bio: test<br> second tests

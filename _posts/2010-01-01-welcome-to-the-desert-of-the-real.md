@@ -1,8 +1,8 @@
 ---
 date: 2019-05-16 23:48:05
 layout: post
-title: Welcome to the desert of the real
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Korea Whine Dancehall
+subtitle: Welcome to the dance of the real
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
@@ -14,7 +14,7 @@ category: tutorial
 tags:
   - welcome
   - blog
-author: thiagorossener
+author: First Test
 paginate: true
 ---
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
