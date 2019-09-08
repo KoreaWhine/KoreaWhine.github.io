@@ -20,7 +20,9 @@ layout: page
   <h2>Video</h2>
   {% if page.youtube_link %}
     <div><object width="640" height="360"><param name="movie" value="https://www.youtube.com/v/{{ page.youtube_link }}?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/{{ page.youtube_link }}?version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
-
+    <div class="video-container">
+        <div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube_link }}?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></div>
+    </div>
   {% endif %}
 
   <h2>Posts</h2>
