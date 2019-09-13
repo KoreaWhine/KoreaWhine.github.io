@@ -19,13 +19,19 @@ layout: main
       max-width: 350px;
       height: auto;
     }
+    @media screen and (min-width: 768px){
+        .hero{background-size: cover}
+    }
+    @media screen and (max-width:767px){
+        .hero{background-size: contain}
+    }
 </style>
 
 <main class="home {% if site.show_hero %}no-padding{% endif %}" role="main">
     {% if site.show_hero %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url({{ featured.image }});background-size:contain">
+        <section class="hero" style="background-image: url({{ featured.image }})">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
