@@ -11,6 +11,7 @@ tags:
   - books
   - read
 author: thiagorossener
+main: true
 paginate: true
 ---
 
